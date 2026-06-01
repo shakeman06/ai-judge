@@ -1,0 +1,93 @@
+[
+  {
+    "id": "sub_1",
+    "queueId": "queue_1",
+    "labelingTaskId": "task_1",
+    "createdAt": 1690000000000,
+    "questions": [
+      {
+        "rev": 1,
+        "data": {
+          "id": "q_template_1",
+          "questionType": "single_choice_with_reasoning",
+          "questionText": "Is the sky blue?",
+          "options": ["yes", "no", "sometimes"]
+        }
+      },
+      {
+        "rev": 1,
+        "data": {
+          "id": "q_template_2",
+          "questionType": "free_form",
+          "questionText": "Describe the primary color of a clear daytime sky."
+        }
+      }
+    ],
+    "answers": {
+      "q_template_1": {
+        "choice": "yes",
+        "reasoning": "Observed on a clear day."
+      },
+      "q_template_2": {
+        "text": "The sky appears blue due to Rayleigh scattering of sunlight."
+      }
+    }
+  },
+  {
+    "id": "sub_2",
+    "queueId": "queue_1",
+    "labelingTaskId": "task_1",
+    "createdAt": 1690000060000,
+    "questions": [
+      {
+        "rev": 1,
+        "data": {
+          "id": "q_template_1",
+          "questionType": "single_choice_with_reasoning",
+          "questionText": "Is the sky blue?",
+          "options": ["yes", "no", "sometimes"]
+        }
+      },
+      {
+        "rev": 1,
+        "data": {
+          "id": "q_template_2",
+          "questionType": "free_form",
+          "questionText": "Describe the primary color of a clear daytime sky."
+        }
+      }
+    ],
+    "answers": {
+      "q_template_1": {
+        "choice": "sometimes",
+        "reasoning": "It can be grey when cloudy or orange at sunset."
+      },
+      "q_template_2": {
+        "text": "It is not always blue — it depends on weather and time of day."
+      }
+    }
+  },
+  {
+    "id": "sub_3",
+    "queueId": "queue_2",
+    "labelingTaskId": "task_2",
+    "createdAt": 1690001000000,
+    "questions": [
+      {
+        "rev": 1,
+        "data": {
+          "id": "q_template_3",
+          "questionType": "multiple_choice",
+          "questionText": "Which of these are primary colors?",
+          "options": ["red", "green", "blue", "yellow", "purple"]
+        }
+      }
+    ],
+    "answers": {
+      "q_template_3": {
+        "choices": ["red", "blue", "yellow"],
+        "reasoning": "These are the traditional RYB primary colors used in art."
+      }
+    }
+  }
+]
